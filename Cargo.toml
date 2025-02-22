@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 async_once = "0.2.6"
-dioxus = { git = "https://github.com/DioxusLabs/dioxus", branch = "main", package = "dioxus", features= ["fullstack", "router"] }
+dioxus = { version = "0.6", features= ["fullstack", "router"] }
 lazy_static = "1.4.0"
 log = "0.4.20"
 manganis = "0.2.2"
@@ -22,3 +22,15 @@ tracing-wasm = "0.2.1"
 default = []
 server = ["dioxus/server", "dep:surrealdb"]
 web = ["dioxus/web"]
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
