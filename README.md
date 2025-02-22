@@ -14,6 +14,7 @@ A very simple note-taking app built with an all-Rust stack: Dioxus for the front
 1. `rustup target add wasm32-unknown-unknown`
 1. Install SurrealDB (on a mac, `brew install surrealdb/tap/surreal`)
 1. Start surrealdb with no authentication `surreal start --unauthenticated` *We assume it is running on the same machine as DrawsNotes, you'll need to make a code change if it is to run elsewhere*
+1. Install tailwindcss if you don't already have it `npm install -g tailwindcss`
 1. In this project directory
     1. `npx tailwindcss -i ./input.css -o ./public/tailwind.css --watch`
     1. `dx serve`
