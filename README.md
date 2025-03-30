@@ -21,8 +21,6 @@ A very simple note-taking app built with an all-Rust stack: Dioxus for the front
   
 
 # YouTube video 
-
-```
 ### Tech Stack
 
 * **Frontend Framework:** Dioxus
@@ -157,4 +155,3 @@ A very simple note-taking app built with an all-Rust stack: Dioxus for the front
 * **GitLab Duo:** The video also shows how GitLab Duo can assist in generating and understanding code snippets.
 
 This README provides a more comprehensive guide, including production deployment. You'll need to adapt it based on the specific structure and requirements of the project you're working with.
-```
